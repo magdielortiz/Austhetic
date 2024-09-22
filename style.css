@@ -64,8 +64,13 @@ h1 {
 .footer {
   text-align: right;
   position:fixed;
-  bottom:1vh;
+  bottom:2.5vh;
   right:25px;
+}
+
+.footer a {
+  color: #1a1a1a;
+  text-decoration: none;
 }
 
 
