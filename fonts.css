@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'PSTimes';
+  src: url('Fonts/PSTimes-Regular.woff2') format('woff2'),
+       url('Fonts/PSTimes-Regular.woff') format('woff'),
+       url('Fonts/PSTimes-Regular.otf') format('opentype');
+}

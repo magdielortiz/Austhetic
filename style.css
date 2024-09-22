@@ -1,0 +1,80 @@
+body {
+  font-family: 'PSTimes', serif;
+  font-size: 28px;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  margin:0;
+  padding: 0;
+}
+
+nav a {
+  color: #1a1a1a;
+  display: block;
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+}
+
+a {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.text p {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50vh;
+  margin-left: 25px;
+  margin-right: 25px;
+  left: 10px;
+  width: 97%;
+}
+
+.overlay {
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+}
+
+.main:hover .overlay {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+}
+
+.footer {
+  text-align: right;
+  position:fixed;
+  bottom:1vh;
+  right:25px;
+}
+
+
+/**Iphone**/
+@media (max-width: 465.5px) {
+
+  .main {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 100%;
+  }
+}
