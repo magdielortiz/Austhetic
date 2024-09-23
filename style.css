@@ -51,6 +51,10 @@ p.number {
   margin-bottom: 5px;
 }
 
+p.end {
+    margin-top: 50px;
+}
+
 .overlay {
   position: absolute;
   top: 50vh;
@@ -105,7 +109,7 @@ p.number {
   h1 {
     font-size: 22px;
     position: relative;
-    top: -2px;
+    top: 0;
     text-align: center;
 }
 
