@@ -54,10 +54,8 @@ p.number {
 .overlay {
   position: absolute;
   top: 50vh;
-  margin-left: 25px;
-  margin-right: 25px;
-  left: 10px;
-  width: 97%;
+  left: 5px;
+  width: 99.5%;
 }
 
 .overlay {
@@ -86,13 +84,18 @@ p.number {
 /**Iphone**/
 @media (max-width: 465.5px) {
 
+  body {
+    font-family: 'PSTimes', serif;
+    font-size: 22px;
+  }
+
   nav {
     margin: 0px;
   }
 
   .logo {
-    font-size: 108px;
-    padding-left: 24px;
+    font-size: 95px;
+    padding-left: 2px;
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 15px;
@@ -114,11 +117,16 @@ p.number {
   }
 
   .container {
+    display: inline;
     margin: 0;
   }
 
   .main {
     width: 88%;
+  }
+
+  p.end {
+    margin-bottom: 100px;
   }
 
   .footer {
