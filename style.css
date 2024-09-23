@@ -82,14 +82,24 @@ h1 {
     margin: 0px;
   }
 
+  .logo {
+    font-size: 115px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .subs {
+    display: none;
+  }
+
   .container {
     margin: 0;
   }
 
   .main {
     margin-left: 25px;
-    margin-right: 25px;
-    width: 100%;
+    width: 95%;
   }
 
   .footer {
