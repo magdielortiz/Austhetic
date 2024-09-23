@@ -24,6 +24,8 @@ h1 {
   font-weight: normal;
   margin-top: 5px;
   margin-bottom: 10px;
+  position: relative;
+  top: -69px;
 }
 
 .container {
@@ -41,6 +43,12 @@ h1 {
 .text p {
   text-align: left;
   margin-top: 10px;
+}
+
+p.number {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .overlay {
@@ -81,6 +89,25 @@ h1 {
   nav {
     margin: 0px;
   }
+
+  .logo {
+    font-size: 120px;
+    padding-left: 3px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  h1 {
+    position: relative;
+    top: -2px;
+    text-align: center;
+}
+
+  .subs {
+    display: none;
+}
 
   .overlay {
     display: none;
