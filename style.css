@@ -55,6 +55,10 @@ p.end {
     margin-top: 50px;
 }
 
+p.end a {
+  color: #000000;
+}
+
 .overlay {
   position: absolute;
   top: 50vh;
