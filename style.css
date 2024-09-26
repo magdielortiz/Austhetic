@@ -53,6 +53,7 @@ p.number {
 
 p.end {
     margin-top: 50px;
+    color: #000000;
 }
 
 p.end a {
@@ -136,6 +137,7 @@ p.end a {
 
   p.end {
     margin-bottom: 100px;
+    color: #000000;
   }
 
   .footer {
