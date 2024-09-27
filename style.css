@@ -65,9 +65,6 @@ p.end a {
   top: 50vh;
   left: 5px;
   width: 99.5%;
-}
-
-.overlay {
   visibility: hidden; /* hides sub-menu */
   opacity: 0;
 }
